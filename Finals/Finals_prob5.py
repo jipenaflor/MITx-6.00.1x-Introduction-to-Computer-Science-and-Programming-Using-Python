@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jul 31 22:26:12 2021
-
-@author: Jerome Penaflor
-"""
+#Implement a function that meets the specifications below:
 
 def cipher(map_from, map_to, code):
     """ map_from, map_to: strings where each contain 
