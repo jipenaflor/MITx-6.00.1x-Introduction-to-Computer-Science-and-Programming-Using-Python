@@ -1,12 +1,11 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jun 24 14:47:36 2021
-
-@author: Jerome Penaflor
-"""
-
-balance = 3926 #3329, 310 #4773, 440
-annualInterestRate = 0.2
+#The following variables contain values as described below:
+    #balance - the outstanding balance on the credit card
+    #annualInterestRate - annual interest rate as a decimal
+    #Monthly interest rate = (Annual interest rate) / 12.0
+    #Monthly payment lower bound = Balance / 12
+    #Monthly payment upper bound = (Balance x (1 + Monthly interest rate)12) / 12.0
+#Write a program that uses these bounds and bisection search to find the smallest monthly payment to the cent (no more multiples of $10)
+#such that we can pay off the debt within a year.
 
 monthlyInterestRate = annualInterestRate/12
 lbound = balance/12
