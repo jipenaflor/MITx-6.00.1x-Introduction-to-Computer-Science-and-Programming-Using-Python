@@ -63,4 +63,4 @@ Enter word, or a "." to indicate that you are finished: inertia
 "inertia" earned 99 points. Total: 99 points
 Run out of letters. Total score: 99 points.
 
-Enter n to deal a new hand, r to replay the last hand, or e to end game: e ```
+Enter n to deal a new hand, r to replay the last hand, or e to end game: e
