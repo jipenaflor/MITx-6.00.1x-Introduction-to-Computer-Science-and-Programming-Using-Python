@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jul 31 22:59:12 2021
-
-@author: Jerome Penaflor
-"""
-
+#Given code:
 class Location(object):
     def __init__(self, x, y):
         self.x = x
@@ -29,6 +23,8 @@ class Campus(object):
         self.center_loc = center_loc
     def __str__(self):
         return str(self.center_loc)
+
+#Problem 7. Implement a class that meets the specifications below:
 
 class MITCampus(Campus):
     """ A MITCampus is a Campus that contains tents """
