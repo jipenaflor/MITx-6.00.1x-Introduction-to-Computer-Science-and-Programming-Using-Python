@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jul 31 21:07:18 2021
-
-@author: Jerome Penaflor
-"""
+#Implement a function that meets the specifications below:
 
 def is_list_permutation(L1, L2):
     '''
