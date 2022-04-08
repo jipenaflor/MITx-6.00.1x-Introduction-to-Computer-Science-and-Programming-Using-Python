@@ -1,11 +1,15 @@
 # Hangman game
-#
+"""Implement the function hangman, which takes one parameter - the secretWord the user is to guess. 
+This starts up an interactive game of Hangman between the user and the computer.
+Be sure you take advantage of the three helper functions, isWordGuessed, getGuessedWord, and getAvailableLetters, that you've defined in the previous part."""
 
-# -----------------------------------
-# Helper code
-# You don't need to understand this helper code,
-# but you will have to know how to use the functions
-# (so be sure to read the docstrings!)
+"""There are four important pieces of information you may wish to store:
+        secretWord: The word to guess.
+       lettersGuessed: The letters that have been guessed so far.
+        mistakesMade: The number of incorrect guesses made so far.
+        availableLetters: The letters that may still be guessed. Every time a player guesses a letter, the guessed letter must be removed from availableLetters 
+        (and if they guess a letter that is not in availableLetters, you should print a message telling them they've already guessed that - so try again!).
+"""
 
 import random
 
