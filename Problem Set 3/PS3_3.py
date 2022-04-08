@@ -1,9 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jul  1 14:49:21 2021
-
-@author: Jerome Penaflor
-"""
+"""Implement the function getAvailableLetters that takes in one parameter - a list of letters, lettersGuessed. 
+This function returns a string that is comprised of lowercase English letters - all lowercase English letters that are not in lettersGuessed.
+Note that this function should return the letters in alphabetical order, as in the example above.
+For this function, you may assume that all the letters in lettersGuessed are lowercase. """
 
 def getAvailableLetters(lettersGuessed):
     '''
