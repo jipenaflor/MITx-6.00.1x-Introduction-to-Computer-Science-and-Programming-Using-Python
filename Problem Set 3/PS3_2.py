@@ -1,9 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jul  1 14:06:27 2021
-
-@author: Jerome Penaflor
-"""
+#Implement the function getGuessedWord that takes in two parameters - a string, secretWord, and a list of letters, lettersGuessed.
+#This function returns a string that is comprised of letters and underscores, based on what letters in lettersGuessed are in secretWord. 
 
 def getGuessedWord(secretWord, lettersGuessed):
     '''
