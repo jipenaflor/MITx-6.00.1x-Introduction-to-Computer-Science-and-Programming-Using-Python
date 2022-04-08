@@ -1,9 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jul  1 10:00:02 2021
-
-@author: Jerome Penaflor
-"""
+#Implement the function isWordGuessed that takes in two parameters - a string, secretWord, and a list of letters, lettersGuessed. 
+#This function returns a boolean - True if secretWord has been guessed (ie, all the letters of secretWord are in lettersGuessed) and False otherwise.
 
 def isWordGuessed(secretWord, lettersGuessed):
     '''
