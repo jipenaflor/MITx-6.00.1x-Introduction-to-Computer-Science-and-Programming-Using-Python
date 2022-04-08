@@ -11,9 +11,6 @@
 #The monthly payment must be a multiple of $10 and is the same for all months.
 #Notice that it is possible for the balance to become negative using this payment scheme, which is okay.
 
-balance = 3926 #3329, 310 #4773, 440
-annualInterestRate = 0.2
-
 def checker(bal, payment, interest):
     for m in range(12):
         bal -= payment
